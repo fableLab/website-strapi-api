@@ -1,11 +1,12 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
-export interface GlobalTitle extends Struct.ComponentSchema {
-  collectionName: 'components_global_titles';
+export interface ElementsTitle extends Struct.ComponentSchema {
+  collectionName: 'components_elements_titles';
   info: {
     displayName: 'Title';
   };
   attributes: {
+    font: Schema.Attribute.String;
     name: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
@@ -13,7 +14,7 @@ export interface GlobalTitle extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
-      'global.title': GlobalTitle;
+      'elements.title': ElementsTitle;
     }
   }
 }

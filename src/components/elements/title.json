@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_global_titles",
+  "collectionName": "components_elements_titles",
   "info": {
     "displayName": "Title"
   },
@@ -8,6 +8,9 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "font": {
+      "type": "string"
     }
   }
 }

@@ -4,8 +4,7 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page",
-    "description": ""
+    "displayName": "Page"
   },
   "options": {
     "draftAndPublish": true
@@ -18,36 +17,20 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "required": true
     },
     "description": {
-      "type": "text",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "type": "blocks"
     },
-    "visible_in_menu": {
+    "unlisted": {
       "type": "boolean",
-      "default": true,
-      "required": false
+      "default": true
     },
     "contents": {
       "type": "dynamiczone",
       "components": [
-        "global.title"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+        "elements.title"
+      ]
     }
   }
 }
