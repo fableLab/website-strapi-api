@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page"
+    "displayName": "Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,9 +20,6 @@
       "type": "string",
       "required": true
     },
-    "description": {
-      "type": "blocks"
-    },
     "unlisted": {
       "type": "boolean",
       "default": true
@@ -31,6 +29,9 @@
       "components": [
         "elements.title"
       ]
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
