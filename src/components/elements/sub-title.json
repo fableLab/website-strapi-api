@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_sub_titles",
+  "info": {
+    "displayName": "SubTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "font": {
+      "type": "enumeration",
+      "enum": [
+        "Default",
+        "Figtree",
+        "Playfair"
+      ],
+      "default": "Default"
+    }
+  }
+}

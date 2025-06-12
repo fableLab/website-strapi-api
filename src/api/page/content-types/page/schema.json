@@ -27,7 +27,9 @@
     "contents": {
       "type": "dynamiczone",
       "components": [
-        "elements.title"
+        "elements.title",
+        "elements.button-link",
+        "elements.sub-title"
       ]
     },
     "description": {

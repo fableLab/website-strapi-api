@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_button_links",
+  "info": {
+    "displayName": "ButtonLink"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
