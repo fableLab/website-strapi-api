@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.6.0](https://github.com/fableLab/website-strapi-api/compare/0.5.0...0.6.0) (2025-06-12)
+
+
+### Features
+
+* **license:** create license component ([74e7e8d](https://github.com/fableLab/website-strapi-api/commit/74e7e8d1dfd7dafa563d96146099029ace7f928e))
+
 # [0.5.0](https://github.com/fableLab/website-strapi-api/compare/0.4.0...0.5.0) (2025-06-12)
 
 
