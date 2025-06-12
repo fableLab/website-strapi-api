@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.7.0](https://github.com/fableLab/website-strapi-api/compare/0.6.0...0.7.0) (2025-06-12)
+
+
+### Features
+
+* **Image:** add Image component ([c052dff](https://github.com/fableLab/website-strapi-api/commit/c052dffcf9e959e30ebce780a88ad0a2b122673e))
+
 # [0.6.0](https://github.com/fableLab/website-strapi-api/compare/0.5.0...0.6.0) (2025-06-12)
 
 
