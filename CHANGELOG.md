@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.5.0](https://github.com/fableLab/website-strapi-api/compare/0.4.0...0.5.0) (2025-06-12)
+
+
+### Features
+
+* **ButtonDownload:** add ButtonDownload component ([9338c98](https://github.com/fableLab/website-strapi-api/commit/9338c983b044e9e752012e9fb20146a989607f58))
+
 # [0.4.0](https://github.com/fableLab/website-strapi-api/compare/0.3.0...0.4.0) (2025-06-12)
 
 
