@@ -396,6 +396,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'elements.button-link',
         'elements.sub-title',
         'elements.button-download',
+        'elements.license',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;

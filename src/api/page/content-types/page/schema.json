@@ -30,7 +30,8 @@
         "elements.title",
         "elements.button-link",
         "elements.sub-title",
-        "elements.button-download"
+        "elements.button-download",
+        "elements.license"
       ]
     },
     "description": {
