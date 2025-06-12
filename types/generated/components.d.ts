@@ -1,5 +1,18 @@
 import type { Schema, Struct } from '@strapi/strapi';
 
+export interface ElementsButtonDownload extends Struct.ComponentSchema {
+  collectionName: 'components_elements_button_downloads';
+  info: {
+    description: '';
+    displayName: 'ButtonDownload';
+  };
+  attributes: {
+    label: Schema.Attribute.String & Schema.Attribute.Required;
+    media: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Schema.Attribute.Required;
+  };
+}
+
 export interface ElementsButtonLink extends Struct.ComponentSchema {
   collectionName: 'components_elements_button_links';
   info: {
@@ -38,6 +51,7 @@ export interface ElementsTitle extends Struct.ComponentSchema {
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
+      'elements.button-download': ElementsButtonDownload;
       'elements.button-link': ElementsButtonLink;
       'elements.sub-title': ElementsSubTitle;
       'elements.title': ElementsTitle;

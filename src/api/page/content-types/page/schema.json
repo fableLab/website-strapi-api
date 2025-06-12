@@ -29,7 +29,8 @@
       "components": [
         "elements.title",
         "elements.button-link",
-        "elements.sub-title"
+        "elements.sub-title",
+        "elements.button-download"
       ]
     },
     "description": {
