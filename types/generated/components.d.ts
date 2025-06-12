@@ -24,6 +24,21 @@ export interface ElementsButtonLink extends Struct.ComponentSchema {
   };
 }
 
+export interface ElementsImage extends Struct.ComponentSchema {
+  collectionName: 'components_elements_images';
+  info: {
+    description: '';
+    displayName: 'Image';
+  };
+  attributes: {
+    align: Schema.Attribute.Enumeration<['center', 'expanded']> &
+      Schema.Attribute.DefaultTo<'center'>;
+    caption: Schema.Attribute.String;
+    media: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'> &
+      Schema.Attribute.Required;
+  };
+}
+
 export interface ElementsLicense extends Struct.ComponentSchema {
   collectionName: 'components_elements_licenses';
   info: {
@@ -75,6 +90,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'elements.button-download': ElementsButtonDownload;
       'elements.button-link': ElementsButtonLink;
+      'elements.image': ElementsImage;
       'elements.license': ElementsLicense;
       'elements.license-item': ElementsLicenseItem;
       'elements.sub-title': ElementsSubTitle;

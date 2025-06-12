@@ -31,7 +31,8 @@
         "elements.button-link",
         "elements.sub-title",
         "elements.button-download",
-        "elements.license"
+        "elements.license",
+        "elements.image"
       ]
     },
     "description": {

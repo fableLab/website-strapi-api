@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_images",
+  "info": {
+    "displayName": "Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "align": {
+      "type": "enumeration",
+      "enum": [
+        "center",
+        "expanded"
+      ],
+      "default": "center"
+    }
+  }
+}
