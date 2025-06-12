@@ -24,6 +24,28 @@ export interface ElementsButtonLink extends Struct.ComponentSchema {
   };
 }
 
+export interface ElementsLicense extends Struct.ComponentSchema {
+  collectionName: 'components_elements_licenses';
+  info: {
+    displayName: 'License';
+  };
+  attributes: {
+    description: Schema.Attribute.Text;
+    licenseItems: Schema.Attribute.Component<'elements.license-item', true>;
+  };
+}
+
+export interface ElementsLicenseItem extends Struct.ComponentSchema {
+  collectionName: 'components_elements_license_items';
+  info: {
+    displayName: 'LicenseItem';
+  };
+  attributes: {
+    content: Schema.Attribute.Text;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ElementsSubTitle extends Struct.ComponentSchema {
   collectionName: 'components_elements_sub_titles';
   info: {
@@ -53,6 +75,8 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'elements.button-download': ElementsButtonDownload;
       'elements.button-link': ElementsButtonLink;
+      'elements.license': ElementsLicense;
+      'elements.license-item': ElementsLicenseItem;
       'elements.sub-title': ElementsSubTitle;
       'elements.title': ElementsTitle;
     }

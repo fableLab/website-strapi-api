@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_licenses",
+  "info": {
+    "displayName": "License"
+  },
+  "options": {},
+  "attributes": {
+    "licenseItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.license-item"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
