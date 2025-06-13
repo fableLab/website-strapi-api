@@ -4,4 +4,9 @@ export default ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
+  cors: {
+    origin: ['http://localhost:3000'], // your Next.js frontend
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    headers: ['Content-Type', 'Authorization'],
+  },
 });

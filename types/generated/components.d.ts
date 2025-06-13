@@ -24,6 +24,22 @@ export interface ElementsButtonLink extends Struct.ComponentSchema {
   };
 }
 
+export interface ElementsFrameCard extends Struct.ComponentSchema {
+  collectionName: 'components_elements_frame_cards';
+  info: {
+    description: '';
+    displayName: 'FrameCard';
+  };
+  attributes: {
+    body: Schema.Attribute.Blocks;
+    colours: Schema.Attribute.Enumeration<
+      ['camelot-700', 'bees-400', 'lavender-600', 'bees-600', 'azure-500']
+    >;
+    image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ElementsImage extends Struct.ComponentSchema {
   collectionName: 'components_elements_images';
   info: {
@@ -90,6 +106,7 @@ declare module '@strapi/strapi' {
     export interface ComponentSchemas {
       'elements.button-download': ElementsButtonDownload;
       'elements.button-link': ElementsButtonLink;
+      'elements.frame-card': ElementsFrameCard;
       'elements.image': ElementsImage;
       'elements.license': ElementsLicense;
       'elements.license-item': ElementsLicenseItem;
