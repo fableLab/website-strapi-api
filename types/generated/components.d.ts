@@ -32,8 +32,8 @@ export interface ElementsFrameCard extends Struct.ComponentSchema {
   };
   attributes: {
     body: Schema.Attribute.Blocks;
-    colours: Schema.Attribute.Enumeration<
-      ['camelot-700', 'bees-400', 'lavender-600', 'bees-600', 'azure-500']
+    color: Schema.Attribute.Enumeration<
+      ['prune', 'violet', 'yellow', 'orange', 'blue', 'black']
     >;
     image: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     title: Schema.Attribute.String;
@@ -77,6 +77,19 @@ export interface ElementsLicenseItem extends Struct.ComponentSchema {
   };
 }
 
+export interface ElementsParagraph extends Struct.ComponentSchema {
+  collectionName: 'components_elements_paragraphs';
+  info: {
+    description: '';
+    displayName: 'Paragraph';
+  };
+  attributes: {
+    align: Schema.Attribute.Enumeration<['left', 'center', 'right']>;
+    body: Schema.Attribute.Blocks;
+    title: Schema.Attribute.String;
+  };
+}
+
 export interface ElementsSubTitle extends Struct.ComponentSchema {
   collectionName: 'components_elements_sub_titles';
   info: {
@@ -110,6 +123,7 @@ declare module '@strapi/strapi' {
       'elements.image': ElementsImage;
       'elements.license': ElementsLicense;
       'elements.license-item': ElementsLicenseItem;
+      'elements.paragraph': ElementsParagraph;
       'elements.sub-title': ElementsSubTitle;
       'elements.title': ElementsTitle;
     }

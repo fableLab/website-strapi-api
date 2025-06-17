@@ -33,7 +33,8 @@
         "elements.button-download",
         "elements.license",
         "elements.image",
-        "elements.frame-card"
+        "elements.frame-card",
+        "elements.paragraph"
       ]
     },
     "description": {

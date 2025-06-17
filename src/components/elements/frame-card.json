@@ -23,14 +23,15 @@
         "audios"
       ]
     },
-    "colours": {
+    "color": {
       "type": "enumeration",
       "enum": [
-        "camelot-700",
-        "bees-400",
-        "lavender-600",
-        "bees-600",
-        "azure-500"
+        "prune",
+        "violet",
+        "yellow",
+        "orange",
+        "blue",
+        "black"
       ]
     }
   }

@@ -399,6 +399,7 @@ export interface ApiPagePage extends Struct.CollectionTypeSchema {
         'elements.license',
         'elements.image',
         'elements.frame-card',
+        'elements.paragraph',
       ]
     >;
     createdAt: Schema.Attribute.DateTime;
