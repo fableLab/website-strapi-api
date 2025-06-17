@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.9.0](https://github.com/fableLab/website-strapi-api/compare/0.8.0...0.9.0) (2025-06-17)
+
+
+### Features
+
+* **Paragraph:** add paragraph component ([e6e4bdb](https://github.com/fableLab/website-strapi-api/commit/e6e4bdbb8fe6fa6b37e5fffd3df5a188029a3827))
+
 # [0.8.0](https://github.com/fableLab/website-strapi-api/compare/0.7.0...0.8.0) (2025-06-13)
 
 
