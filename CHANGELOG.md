@@ -1,5 +1,12 @@
 # Changelog
 
+# [0.10.0](https://github.com/fableLab/website-strapi-api/compare/0.9.0...0.10.0) (2025-06-18)
+
+
+### Features
+
+* **OVH_S3:** configure OVH S3 service ([87918ac](https://github.com/fableLab/website-strapi-api/commit/87918ac3e08a5770ba6fb3bd18866369fdad3e5d))
+
 # [0.9.0](https://github.com/fableLab/website-strapi-api/compare/0.8.0...0.9.0) (2025-06-17)
 
 
